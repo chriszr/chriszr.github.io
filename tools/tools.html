@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>kt.pe tools</title>
+    <title>kt.gy tools</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">kt.pe</a>
+            <a class="navbar-brand">kt.gy</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -126,6 +126,10 @@
                     <span class="label label-success inputLabel">B64</span>
                 </p>
                 <p>
+                    <textarea id="inpBase64Url" placeholder="Base64-URL" class="form-control dataInput"></textarea>
+                    <span class="label inputLabel" style="background-color:#a0b870">B64URL</span>
+                </p>
+                <p>
                     <textarea id="inpBase32" placeholder="Base32" class="form-control dataInput"></textarea>
                     <span class="label inputLabel" style="background-color:#a0d870">B32</span>
                 </p>
@@ -172,6 +176,10 @@
                 <p>
                     <input type="text" id="sha3" placeholder="SHA3" class="form-control dataInput" readonly />
                     <span class="label label-warning inputLabel">SHA3</span>
+                </p>
+                <p>
+                    <input type="text" id="crc32" placeholder="CRC32" class="form-control dataInput" readonly />
+                    <span class="label inputLabel" style="background-color:maroon;">CRC32</span>
                 </p>
             </div>
 
@@ -388,7 +396,7 @@
 <script src="js/jsbn/jsbn.js"></script>
 <script src="js/jsbn/jsbn2.js"></script>
 
-<script src="js/tools.js?1"></script>
+<script src="js/tools.js"></script>
 <script src="js/upc.js"></script>
 
 </body>
